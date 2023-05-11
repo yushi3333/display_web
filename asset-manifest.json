@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/display_web/static/css/main.c2b7493a.css",
+    "main.js": "/display_web/static/js/main.d6be8fc0.js",
+    "static/media/product01.jpg": "/display_web/static/media/product01.9bd48307bb712add0ead.jpg",
+    "static/media/texture.jpg": "/display_web/static/media/texture.5ac9de86fee08a6ca344.jpg",
+    "static/media/yushi.jpg": "/display_web/static/media/yushi.067ebef8b637eb7ed172.jpg",
+    "static/media/coverletter.pdf": "/display_web/static/media/coverletter.039fd818a3ca11c25244.pdf",
+    "static/media/experience.jpg": "/display_web/static/media/experience.c34d917b6c982dd9062a.jpg",
+    "index.html": "/display_web/index.html",
+    "main.c2b7493a.css.map": "/display_web/static/css/main.c2b7493a.css.map",
+    "main.d6be8fc0.js.map": "/display_web/static/js/main.d6be8fc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2b7493a.css",
+    "static/js/main.d6be8fc0.js"
+  ]
+}
