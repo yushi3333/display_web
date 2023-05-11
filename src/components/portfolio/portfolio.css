@@ -1,0 +1,9 @@
+.portfolio_items{
+    display:grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 1.5rem;
+}
+
+.portfolio_item{
+    text-align: center;
+}

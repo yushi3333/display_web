@@ -1,0 +1,53 @@
+.experience_container{
+    display:grid;
+    gap:20%;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.experience_container > div{
+    background:rgb(0,0,0,0.5);
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    padding: 2.4rem 5rem;
+    transition: var(--transition);
+
+}
+
+.experience_container > div:hover{
+    background:transparent;
+    border-color: var(--color-light);
+    cursor:default;
+}
+.experience_container > div h3{
+    text-align: center;
+    margin-bottom:2 rem;
+    color:var(--color-primary);
+}
+/*==============MEDIA QUERY (medium query)=========*/
+@media screen and (max-width:1024px){
+    .experience_container{
+        grid-template-columns: 1fr;
+        gap: 5%;
+        
+    }
+    .experience_container > div{
+        width:80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+@meida screen and (max-width: 600px){
+    .experience_container{
+        gap: 1rem;
+
+    }
+    .experience_container > div{
+        width:100%;
+        padding: 2rem 1rem;
+    }
+}
+
+
+

@@ -1,0 +1,94 @@
+.about_container{
+    display:grid;
+    gap: 20%;
+}
+
+.about_me{
+    width:100%;
+    aspect-ratio:1/1;
+    border-radius:2rem;
+    background: linear-gradient(45deg, transparent, black, transparent);
+    display:grid;
+    place-items:center;  
+}
+
+
+.about_me_image{
+    border-radius:2rem;
+    overflow: hidden;
+    transform:rotate(10deg);
+    transition: var(--transition);
+}
+
+.about_me_image:hover{
+    transform:rotate(0);
+}
+
+.about_cards{
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1.5rem;
+}
+
+.about_card{
+    background: rgb(0,0,0,0.5);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    text-align: center;
+    transition: center;
+    transition: var(--transition);
+    font-size: 1.5rem;
+}
+
+.about_car:hover{
+    background:transparent;
+    border-color:var(--color-primary-variant);
+    cursor:default;
+}
+
+.about_icon{
+    color:var(--color-primary);
+    font-size:1.4rem;
+    margin: 1rem;
+
+}
+
+.about_card:hover{
+    color:var(--color-light);
+}
+
+.about_content{
+    background: rgb(0,0,0,0.5);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    text-align: center;
+    transition: center;
+    transition: var(--transition);
+    font-size: 1.5rem;
+}
+.about_content:hover{
+    color:var(--color-light);
+}
+h5{
+    color:var(--color-white);
+}
+/*==============MEDIA QUERY (medium query)=========*/
+@media screen and (max-width:1024px){
+    .about_container{
+        grid-template-columns: 1fr;
+        gap: 5%;
+    }
+}
+
+@meida screen and (max-width: 600px){
+    .about_cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+.about_content{
+    text-align: center;
+}
+
+
