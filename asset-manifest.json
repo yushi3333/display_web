@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/display_web/static/css/main.805b9d90.css",
-    "main.js": "/display_web/static/js/main.49fa9718.js",
+    "main.js": "/display_web/static/js/main.b51bdf4e.js",
     "static/media/product01.jpg": "/display_web/static/media/product01.9bd48307bb712add0ead.jpg",
     "static/media/texture.jpg": "/display_web/static/media/texture.5ac9de86fee08a6ca344.jpg",
     "static/media/yushi.jpg": "/display_web/static/media/yushi.067ebef8b637eb7ed172.jpg",
@@ -10,10 +10,10 @@
     "static/media/coverletter.pdf": "/display_web/static/media/coverletter.55a9b14212d8353eb10a.pdf",
     "index.html": "/display_web/index.html",
     "main.805b9d90.css.map": "/display_web/static/css/main.805b9d90.css.map",
-    "main.49fa9718.js.map": "/display_web/static/js/main.49fa9718.js.map"
+    "main.b51bdf4e.js.map": "/display_web/static/js/main.b51bdf4e.js.map"
   },
   "entrypoints": [
     "static/css/main.805b9d90.css",
-    "static/js/main.49fa9718.js"
+    "static/js/main.b51bdf4e.js"
   ]
 }
