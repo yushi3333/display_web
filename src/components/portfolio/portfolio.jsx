@@ -14,7 +14,7 @@ const Portfolio = ()=>{
 
                     </div>
                     <h3>Car Dealer Website</h3>
-                    <a href="display_web/index02.html" className="btn" target="_blank">Open</a>{/*the projects in the github */}
+                    <a href="index02.html" className="btn" target="_blank">Open</a>{/*the projects in the github */}
                     
                 </article>
                 <article className="portfolio_item">
