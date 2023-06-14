@@ -22,7 +22,7 @@ const Contact = ()=>{
                         <HiOutlineMail />
                         <h4>Email</h4>
                         <h5>g1125189291@gamil.com</h5>
-                        <a href="mailto:a1125189291@gmail.com" target="_blank">Send a message</a>
+                        <a href="mailto:g1125189291@gmail.com" target="_blank">Send a message</a>
                     </article>
                     <article className = "contact_option">
                         <AiOutlineWhatsApp />

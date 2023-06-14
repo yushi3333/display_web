@@ -7,3 +7,11 @@
 .portfolio_item{
     text-align: center;
 }
+
+.portfolio_item_image{
+    height:200px;
+}
+.portfolio_item_image img{
+    height:100%;
+
+}
